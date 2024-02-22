@@ -1,0 +1,10 @@
+.main-image {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
