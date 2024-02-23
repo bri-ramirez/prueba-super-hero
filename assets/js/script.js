@@ -106,6 +106,12 @@ const showStaticticsHero = data => {
     ],
   };
 
+  // si no hay estadisticas, se muestra un mensaje
+  if(arrayData.length === 0) {
+    options.title.text = 'No hay estadisticas de poder para este heroe';
+  }
+
+  // se crea el grafico
   $('#chartContainer').CanvasJSChart(options);
 }
 
